@@ -13,7 +13,7 @@ for var in data:
     print("Name :",var[1])
     print("Course : ",var[2])
     print("fees : ",var[3])
-print()
+    print()
 
 db.commit()
 c.close()
