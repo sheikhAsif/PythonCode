@@ -1,0 +1,5 @@
+from one import pat as p
+
+print("current file or module name :",p.__name__)
+n = int(input("Enter no of line : "))
+pat(n)
